@@ -1,0 +1,614 @@
+
+/*#023047
+#219ebc
+#c5dffa
+#85c7e6
+peach
+#e6cfb3*/
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    background-color: #023047;
+}
+
+h1, h2, h3, h4, h6 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    
+}
+
+h1 {
+    font-size: 1.5em;
+    color: #023047;
+}
+
+h2, h3 {
+    font-size: 1.15em;
+    color: #666;
+}
+
+h4{
+    color: #023047;
+}
+
+h5 {
+    font-size: 1.05em;
+    margin-left: 30%;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+article h4 {
+    margin-left: 11%;
+}
+
+
+header h1{
+    font-size: 2em;
+    font-family: "Cooper Black", serif;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: aqua;
+}
+
+p a:link, p a:visited {
+    text-decoration: none;
+    color:#85c7e6;
+}
+
+p a:hover {
+    text-decoration: underline;
+    color: #219ebc;
+}
+
+img {
+    float: right;
+    margin-left: 1%;
+}
+
+#container {
+    background-color: #F2EDE0;
+    margin: 3%;
+    padding: 1%;
+    overflow: auto;
+    border: 10px solid #219ebc;
+}
+
+header{
+    background-image: url('assets//bluebanner3.png');
+    background-size: cover;
+    background-color: #85c7e6; 
+    padding: 3em;
+    margin-bottom: 0.5em;
+    border: 4px solid #014363;
+}
+
+
+main {
+    margin: auto;
+    margin-left: 2em; 
+}
+
+section {
+    display: block;
+}
+
+
+ul > li > a:hover {
+    background-color: #d6c2ff; 
+    color: #3680a3;
+}
+nav {
+    background-color: #3680a3;
+    text-align: center; 
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+li {
+    display: inline-block; 
+    margin-right: 20px; 
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+li a{
+    text-decoration: none;
+    color: lightgoldenrodyellow;
+}
+
+footer {
+    background-color: #85c7e6; 
+    color: black;
+    text-align: center;
+    padding: 15px;
+    position:relative;
+    bottom: 0;
+    width: 90%;
+    height: 2.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+
+blockquote{
+    text-align: center;
+}
+
+#me{
+    float: right; 
+    width: 18%;
+    height:auto;
+}
+
+.audio {
+	position: absolute;
+	top: 61%;
+    right: 2.5%;
+	width: 30%;
+    height: auto;
+}
+
+.center {
+  display: block;
+    float: inherit;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#guitar {
+    position: absolute;
+	top: 62%;
+    left: 5%;
+	width: 8%;
+    float: left;
+    height: auto;
+}
+
+#home {
+    text-align: center;
+}
+
+
+#film1 {
+	float: left; 
+    width: 100%; 
+    height: auto;
+}
+
+#film2 {
+	float: left; 
+    width: 100%; 
+    height: auto;
+}
+
+#film3{
+    float: left; 
+    width: 100%; 
+    height: auto;
+    
+}
+.d {
+    list-style-type: decimal;
+        margin-left: 30%;
+
+}
+
+.break {
+    height: 29em;
+}
+
+#spider {
+   position: absolute;
+	top: 214.5%;
+    height: auto;
+    float: left;
+    width: 29%;
+    left:6.5%; 
+    height: auto;
+}
+#spiderfont {
+   position: absolute;
+	top: 214.5%;
+    height: auto;
+    float: left;
+    width: 29%;
+    left:6.5%; 
+    height: auto;
+    font-size: 16px;
+}
+
+#star {
+    position: absolute;
+	top: 214.5%;
+    left: 46%;
+    height: auto;
+
+}
+
+#nope {
+    position: absolute;
+	top: 214.5%;
+    left: 77%;
+    height: auto;
+}
+
+#spidertext {
+   position: absolute;
+	top: 219.5%;
+    height: auto;
+    float: left;
+    width: 25%;
+    left:8%; 
+    height: auto;
+    text-align: justify;
+}
+
+#startext {
+    position: absolute;
+	top: 219.5%;
+    left: 39%;
+     width: 25%;
+    height: auto;
+    text-align: justify;
+
+}
+
+#nopetext {
+    position: absolute;
+	top: 219.5%;
+    left: 69%;
+     width: 25%;
+    height: auto;
+    text-align: justify;
+}
+
+.cinnamon{
+    float: left; 
+    width: 24%;
+    height:auto; 
+    margin-right: 15px; 
+    margin-top: 6px;
+
+}
+
+.space{
+    width: 17em;
+    height: auto;
+}
+
+.videobox {
+    border-radius: 0.5em; 
+    color: #444;
+    padding: 0.5em; 
+    flex-basis: 250px; 
+    flex-grow: 1; 
+}
+
+
+video {
+    width: 600px;
+    height: auto; 
+}
+
+
+
+.gif {
+    position: absolute;
+    width: 34%;
+    height: auto;
+    float: right;
+}
+
+.legendborn{ 
+    width: 13%; 
+    height: auto; 
+    float: left; 
+    margin-right: 17px;
+}
+
+.bloodmarked{
+    width: 13%; 
+    height: auto;
+    float: left;    
+    position: absolute;
+	top: 83%;
+    left: 17.5%;
+}
+
+
+.book {
+	position: absolute;
+	top: 75%;
+    left: 17.5%;
+	width: 30%;
+    height: auto;
+}
+
+.heartleft{
+    float:left; 
+    width: 5%; 
+    height: auto;
+}
+
+.heartright{
+    float:right;  
+    width: 5%; 
+    height: auto;
+}
+
+.bookp {
+    margin-left: 30%;
+}
+
+
+#lead {
+    text-align: center; 
+    font-size: 36px;
+        
+}
+
+.world{
+    color:#080c5e; 
+    text-align: center;
+}
+
+#musicpa{
+    margin-left: 11%;
+}
+#musicpb{
+    margin-left: 11%;
+}
+
+
+#musicpc{
+    margin-left: 11%;
+    margin-right: 30%;
+}
+
+
+.nmj{
+    float: right; 
+    width: 25%; 
+    height: auto; 
+    margin-bottom: 7px;
+}
+
+#ear{
+    float: left; 
+    width:13%; 
+    height: auto;
+}
+
+#audiodis{
+    float: right; 
+}
+
+.vm{
+    float: left; 
+    width: 27%; 
+    height: auto; 
+    margin-right: 15px;
+}
+
+#spotify{
+    float: right; 
+    width: 60%; 
+    height: auto;
+}
+
+
+.filmbox{
+
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    display:flex;
+    flex-wrap:wrap;
+
+            
+}
+.filmbox1{
+    border-radius: .5em;
+    color: #444;
+    padding: .5em;
+    flex-basis:250px;
+    flex-grow:1;
+          
+}
+
+
+
+.filmbox > .filmbox1 > h2 {
+    color: brown; 
+}
+
+.filmbox > .filmbox1 > li {
+    color: purple; 
+}
+
+
+
+
+/*new pages*/
+
+#pfilm{
+    font-size: 1.25em;
+}
+
+#pfilm1{
+    font-size: 1.25em;
+}
+
+.lmx{
+    margin-left: 0;
+}
+#ty{
+   width: 37%; 
+}
+
+#s1{
+    width:  20%;
+    float: left;
+    margin: 7px;
+}
+
+.lmxbox{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    display:flex;
+    flex-wrap:wrap;
+    margin-left: 0;
+}
+.lmxbox1{
+    border-radius: 0.5em; 
+    color: #444;
+    padding: 0.5em; 
+    flex-basis: 300px; 
+    flex-grow: 1;
+    margin-left: 0;
+}
+
+#jade{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#leighanne{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#perrie{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#ursong{
+    color: mediumpurple;
+}
+
+td a{
+    color: black;
+}
+
+td a:hover {
+    text-decoration: underline;
+    color: purple;
+}
+
+
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+
+/* Semantic UI*/
+.ui.grid.container {
+    background-color: #F2EDE0;
+    width: 100%;
+    max-width: 1900px;
+    margin: 3%;
+    padding: 1%;
+    overflow: auto;
+    border: 10px solid #219ebc;
+}
+
+.pp {
+    background-image: url('assets/bluebanner3.png');
+    background-size: cover;
+    width: 1300px;
+    height: 180px;
+    background-color: #85c7e6; 
+    padding: 3em; 
+    margin-bottom: 0.5em;
+    border: 4px solid #014363;
+
+}
+
+.pph1{
+    font-size: 2em;
+    font-family: "Cooper Black", serif;
+    color:#080c5e; 
+    text-align: center;
+
+}
+
+
+
+.ui.menu {
+    background-color: #3680a3;
+    text-align: center; 
+    width: 100%;
+    
+}
+
+
+
+
+a.item:hover {
+    background-color: #d6c2ff; 
+    color: #3680a3;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+li {
+    display: inline-block; 
+    margin-right: 20px; 
+}
+
+
+
+
+.image{
+    margin: 3%;
+}
+
+
+
+.ui.card{
+    width: 200px;
+}
+
+.ui.fluid.circular.image{
+    width: 40%;
+    float: right;
+}
+
+.ui.header{
+    color: mediumpurple;
+}
+
